@@ -1,4 +1,48 @@
-\# Project Journal
+# Project Journal
+
+## 2026-07-14
+
+### Sprint 3 - Enterprise Identity
+
+#### Completed
+
+- Created the VPS Technologies Organizational Unit (OU) structure.
+- Created department OUs:
+  - Executive
+  - Information Technology
+  - Engineering
+  - Finance
+  - Human Resources
+  - Help Desk
+  - Contractors
+- Created enterprise security groups:
+  - GG_IT_Admins
+  - GG_HelpDesk
+  - GG_Engineering
+  - GG_Finance
+  - GG_HR
+  - GG_Executives
+- Created executive user accounts.
+- Created Information Technology user accounts.
+- Configured CLIENT01 to use DC01 as its DNS server.
+- Successfully joined CLIENT01 to the `corp.vpstechnologies.internal` domain.
+- Renamed the workstation to `CLIENT01`.
+- Moved the computer object from the default **Computers** container to the **Workstations** Organizational Unit.
+
+#### Lessons Learned
+
+- Active Directory relies heavily on DNS.
+- Organizational Units are used to organize objects and apply Group Policy.
+- Security groups should be used to assign permissions instead of assigning permissions directly to users.
+- Computer objects are automatically created when a workstation joins the domain.
+- The default **Computers** container is not intended for long-term management of enterprise workstations.
+
+#### Next Sprint
+
+- Configure administrative accounts.
+- Create the first Group Policy Object (GPO).
+- Verify Group Policy processing on CLIENT01.
+- Begin building enterprise workstation management.
 
 
 
@@ -57,4 +101,12 @@
 \- Join CLIENT01 to the domain.
 
 \- Document the environment architecture in GitHub.
+
+
+
+
+
+
+
+
 
