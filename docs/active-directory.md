@@ -1,8 +1,8 @@
-\# Active Directory Design
+# Active Directory Design
 
 
 
-\## Forest
+## Forest
 
 
 
@@ -10,7 +10,7 @@ corp.vpstechnologies.internal
 
 
 
-\## NetBIOS
+## NetBIOS
 
 
 
@@ -18,7 +18,7 @@ VPSTECH
 
 
 
-\## Domain Controller
+## Domain Controller
 
 
 
@@ -26,7 +26,7 @@ DC01
 
 
 
-\## Organizational Unit Structure
+## Organizational Unit Structure
 
 
 
@@ -68,35 +68,34 @@ VPS Technologies
 
 
 
-\## Current Environment
+## Current Environment
 
 
 
-\### Domain
+### Domain
 
 
 
-\- Forest: `corp.vpstechnologies.internal`
+- Forest: `corp.vpstechnologies.internal`
 
-\- NetBIOS: `VPSTECH`
-
-
-
-\### Domain Controller
+- NetBIOS: `VPSTECH`
 
 
 
-\- DC01
-
-\- Windows Server 2022
-
-\- DNS
-
-\- Global Catalog
+### Domain Controller
 
 
 
-\### Organizational Units
+- DC01
+
+- Windows Server 2022
+
+- DNS
+
+- Global Catalog
+
+
+### Organizational Units
 
 
 
@@ -104,39 +103,39 @@ VPS Technologies
 
 
 
-\- Admins
+- Admins
 
-\- Disabled Objects
+- Disabled Objects
 
-\- Groups
+- Groups
 
-\- Servers
+- Servers
 
-\- Service Accounts
+- Service Accounts
 
-\- Users
+- Users
+	
+	- Executive
 
-&#x20; - Executive
+	- Information Technology
 
-&#x20; - Information Technology
+	- Engineering
 
-&#x20; - Engineering
+	- Finance
 
-&#x20; - Finance
+	- Human Resources
 
-&#x20; - Human Resources
+	- Help Desk
 
-&#x20; - Help Desk
+	- Contractors
 
-&#x20; - Contractors
-
-\- Workstations
-
-
-
-\### Workstations
+- Workstations
 
 
 
-\- CLIENT01
+### Workstations
+
+
+
+- CLIENT01
 
