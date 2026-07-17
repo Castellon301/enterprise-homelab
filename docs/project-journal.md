@@ -1,3 +1,51 @@
+## 2026-07-17
+
+### Sprint 5 – Enterprise File Services
+
+#### Completed
+
+- Built FS01.
+- Joined FS01 to the domain.
+- Installed the File Server role.
+- Created departmental SMB shares:
+  - Engineering
+  - Finance
+  - HR
+  - IT
+  - Public
+- Verified access to file shares from CLIENT01.
+
+#### Sprint 6 – Enterprise Authorization
+
+#### Completed
+
+- Learned the difference between Share Permissions and NTFS Permissions.
+- Learned how NTFS inheritance works.
+- Broke inheritance for department folders.
+- Replaced local `Users` permissions with Active Directory security groups.
+- Assigned:
+  - `GG_Engineering` → Engineering (Modify)
+  - `GG_Finance` → Finance (Modify)
+
+#### Lessons Learned
+
+- Authentication answers **who you are**.
+- Authorization answers **what you can access**.
+- Permissions should be assigned to security groups instead of individual users.
+- NTFS permissions and Share permissions work together.
+- Inheritance simplifies administration but should be broken when department-specific security is required.
+- Group-based access control scales much better than user-based permissions.
+
+#### Next Sprint
+
+- Secure remaining department folders.
+- Configure Public share using Authenticated Users.
+- Introduce AGDLP.
+- Test access with multiple department users.
+- Troubleshoot permission conflicts.
+
+
+
 # Project Journal
 
 ## 2026-07-14

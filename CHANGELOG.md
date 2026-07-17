@@ -53,3 +53,18 @@ Added:
 - Windows 11 workstation joined to the domain
 - CLIENT01 moved into the Workstations OU
 
+
+
+## 2026-07-17
+
+### Added
+
+- FS01 enterprise file server
+- Departmental SMB shares
+- NTFS permissions for Engineering and Finance
+- RBAC implementation using Active Directory security groups
+
+### Changed
+
+- Replaced inherited local Users permissions with explicit domain security groups.
+
